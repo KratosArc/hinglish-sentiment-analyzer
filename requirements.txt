@@ -1,7 +1,6 @@
-transformers==4.52.4
+streamlit
+transformers
 torch
-scikit-learn==1.4.2
-pandas==2.1.4
-numpy==1.24.3
-streamlit==1.28.1
-huggingface-hub>=0.19.0
+huggingface-hub
+safetensors
+sentencepiece
