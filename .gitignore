@@ -1,0 +1,38 @@
+# Virtual environment
+venv/
+env/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Model files (CRITICAL)
+models/
+*.bin
+*.safetensors
+*.pkl
+*.joblib
+
+# Data files
+data/raw/
+data/processed/
+temp_repo/
+
+# Generated files
+*.log
+.cache/
+results_*/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Report images (optional)
+src/*.png
