@@ -56,8 +56,8 @@ Analyze sentiment of code-mixed Hindi-English text using XLM-RoBERTa
 def load_model():
     return pipeline(
         "text-classification",
-        model="./models/hinglish_model_v2",  # adjust path if needed
-        tokenizer="./models/hinglish_model_v2"
+        model="Jiveshwar/hinglish-sentiment-analyzer", # adjust path if needed
+        tokenizer="Jiveshwar/hinglish-sentiment-analyzer"
     )
 
 classifier = load_model()
@@ -104,4 +104,4 @@ with st.sidebar:
     st.write("Framework : Streamlit")
 
     st.write("Developer : Jiveshwar Singh Rathore")
-st.markdown("Built with XLM-RoBERTa fine-tuned on SemEval-2020 Task 9 (Hinglish)")
+st.markdown("📊 [GitHub](https://github.com/KratosArc/hinglish-sentiment-analyzer) | 🤗 [Model](https://huggingface.co/Jiveshwar/hinglish-sentiment-analyzer)")
