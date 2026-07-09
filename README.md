@@ -2,7 +2,8 @@
 
 A fine-tuned XLM-RoBERTa transformer model for sentiment analysis of code-mixed Hindi-English (Hinglish) text. Achieves **69% accuracy** on the SemEval-2020 Task 9 dataset with interactive Streamlit demo.
 
-**Live Demo:** `streamlit run api/streamlit_demo.py`
+## 🌐 Live Demo to Test 
+👉 [Test the API here]:(https://hinglish-sentiment-analyzer-rjv4655iosnwn7gmdgbkgt.streamlit.app/)
 
 ---
 
